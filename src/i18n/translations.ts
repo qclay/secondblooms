@@ -10,7 +10,7 @@
    en: {
     hero: {
       tagline: "Give flowers a second chance",
-      title1: "The App for Buying",
+      title1: "App for Buying",
       title2: "& Selling Bouquets",
       description: "The mobile marketplace for flower bouquets. Find stunning arrangements at great prices.",
        stats: {
