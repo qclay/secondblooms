@@ -1,10 +1,12 @@
  import React, { createContext, useContext, useState, useEffect } from 'react';
- import { Language, translations, Translations } from '@/i18n/translations';
+ import { Language, translations } from '@/i18n/translations';
+ 
+ type TranslationType = typeof translations.en;
  
  interface LanguageContextType {
    language: Language;
    setLanguage: (lang: Language) => void;
-   t: Translations;
+   t: TranslationType;
  }
  
  const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -24,7 +26,7 @@
      document.documentElement.lang = language;
    }, [language]);
  
-   const t = translations[language];
+   const t = translations[language] as TranslationType;
  
    return (
      <LanguageContext.Provider value={{ language, setLanguage, t }}>
