@@ -1,8 +1,11 @@
  import { Instagram, Mail, Send } from "lucide-react";
  import { Link } from "react-router-dom";
  import logo from "@/assets/logo.svg";
+ import { useLanguage } from "@/contexts/LanguageContext";
  
  const Footer = () => {
+   const { t } = useLanguage();
+ 
    return (
      <footer className="border-t border-border bg-background py-12">
        <div className="container mx-auto px-4">
@@ -14,8 +17,7 @@
                <span className="font-serif text-2xl font-bold">SecondBloom</span>
              </div>
              <p className="mb-6 max-w-sm text-muted-foreground">
-               Маркетплейс для продажи и покупки цветочных букетов.
-               Дайте цветам вторую жизнь.
+               {t.footer.description}
              </p>
              <div className="flex gap-4">
                <a
@@ -45,31 +47,31 @@
  
            {/* Links */}
            <div>
-             <h4 className="mb-4 font-semibold">Для продавцов</h4>
+             <h4 className="mb-4 font-semibold">{t.footer.forSellers}</h4>
              <ul className="space-y-3 text-muted-foreground">
-               <li><a href="#" className="transition-colors hover:text-primary">Как продавать</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">Советы по ценам</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">Правила продавца</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">Истории успеха</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.howToSell}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.pricingTips}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.sellerGuidelines}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.successStories}</a></li>
              </ul>
            </div>
  
            <div>
-             <h4 className="mb-4 font-semibold">Для покупателей</h4>
+             <h4 className="mb-4 font-semibold">{t.footer.forBuyers}</h4>
              <ul className="space-y-3 text-muted-foreground">
-               <li><a href="#" className="transition-colors hover:text-primary">Как делать ставки</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">Гарантия свежести</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">Доставка</a></li>
-               <li><a href="#" className="transition-colors hover:text-primary">FAQ</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.howToBid}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.freshnessGuarantee}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.delivery}</a></li>
+               <li><a href="#" className="transition-colors hover:text-primary">{t.footer.faq}</a></li>
              </ul>
            </div>
          </div>
  
          <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 text-sm text-muted-foreground md:flex-row">
-           <p>© 2026 SecondBloom. Все права защищены.</p>
+           <p>{t.footer.copyright}</p>
            <div className="flex gap-6">
-             <Link to="/privacy" className="transition-colors hover:text-primary">Политика конфиденциальности</Link>
-             <Link to="/terms" className="transition-colors hover:text-primary">Условия использования</Link>
+             <Link to="/privacy" className="transition-colors hover:text-primary">{t.footer.privacy}</Link>
+             <Link to="/terms" className="transition-colors hover:text-primary">{t.footer.terms}</Link>
            </div>
          </div>
        </div>
