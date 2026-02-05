@@ -1,8 +1,12 @@
  import { motion } from "framer-motion";
  import { ChevronDown } from "lucide-react";
  import heroImage from "@/assets/hero-flowers.jpg";
+ import { useLanguage } from "@/contexts/LanguageContext";
+ import LanguageSelector from "./LanguageSelector";
  
  const HeroSection = () => {
+   const { t } = useLanguage();
+ 
    const scrollToContent = () => {
      window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
    };
@@ -18,6 +22,11 @@
          />
          {/* Dark gradient overlay */}
          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/20" />
+       </div>
+ 
+       {/* Language selector */}
+       <div className="absolute right-6 top-6 z-20 md:right-12 md:top-8">
+         <LanguageSelector variant="light" />
        </div>
  
        {/* Content */}
@@ -36,18 +45,17 @@
                transition={{ delay: 0.2 }}
                className="mb-4 text-sm uppercase tracking-widest text-white/70"
              >
-             Подари цветам вторую жизнь
+               {t.hero.tagline}
              </motion.p>
  
              <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl xl:text-7xl">
-             Красивые букеты,
+               {t.hero.title1}
                <br />
-             вторая жизнь
+               {t.hero.title2}
              </h1>
  
              <p className="max-w-lg text-base text-white/80 md:text-lg">
-             Маркетплейс для продажи и покупки цветочных букетов. 
-             Находите потрясающие композиции по выгодным ценам.
+               {t.hero.description}
              </p>
            </motion.div>
  
@@ -60,15 +68,15 @@
            >
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">50%</p>
-             <p className="text-sm text-white/60">Средняя экономия</p>
+               <p className="text-sm text-white/60">{t.hero.stats.savings}</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">2K+</p>
-             <p className="text-sm text-white/60">Довольных покупателей</p>
+               <p className="text-sm text-white/60">{t.hero.stats.buyers}</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">500+</p>
-             <p className="text-sm text-white/60">Активных продавцов</p>
+               <p className="text-sm text-white/60">{t.hero.stats.sellers}</p>
              </div>
            </motion.div>
          </div>
@@ -84,7 +92,7 @@
            }}
            className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/60 transition-colors hover:text-white"
          >
-         <span className="text-xs uppercase tracking-widest">Листать</span>
+           <span className="text-xs uppercase tracking-widest">{t.hero.scroll}</span>
            <ChevronDown className="h-5 w-5" />
          </motion.button>
        </div>
