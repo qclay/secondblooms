@@ -4,38 +4,38 @@
  const features = [
    {
      icon: DollarSign,
-     title: "Earn from Unused Bouquets",
-     description: "Turn your unwanted flowers into cash. List bouquets from events, weddings, or impulse buys and give them a second life.",
+     title: "Зарабатывайте на букетах",
+     description: "Превратите ненужные цветы в деньги. Выставляйте букеты со свадеб, мероприятий или спонтанных покупок на аукцион.",
      forSeller: true,
    },
    {
      icon: ShoppingBag,
-     title: "Find Amazing Deals",
-     description: "Access beautiful bouquets at a fraction of traditional flower shop prices. Bid on unique arrangements you won't find elsewhere.",
+     title: "Находите выгодные предложения",
+     description: "Покупайте красивые букеты по цене значительно ниже цветочных магазинов. Делайте ставки на уникальные композиции.",
      forSeller: false,
    },
    {
      icon: Leaf,
-     title: "Sustainable Choice",
-     description: "Reduce floral waste and support sustainability. Every second-bloom purchase means fewer flowers end up in landfills.",
+     title: "Экологичный выбор",
+     description: "Сокращайте цветочные отходы и поддерживайте устойчивое развитие. Каждая покупка — это спасённые цветы.",
      forSeller: true,
    },
    {
      icon: Timer,
-     title: "Quick Auctions",
-     description: "Time-sensitive auctions create excitement and urgency. Fresh flowers need quick sales, and our platform delivers.",
+     title: "Быстрые аукционы",
+     description: "Ограниченные по времени аукционы создают азарт. Свежие цветы требуют быстрых продаж — наша платформа это обеспечивает.",
      forSeller: false,
    },
    {
      icon: Shield,
-     title: "Secure Transactions",
-     description: "Protected payments and verified sellers ensure your purchases are safe. Buy with confidence every time.",
+     title: "Безопасные сделки",
+     description: "Защищённые платежи и верифицированные продавцы гарантируют безопасность покупок. Покупайте с уверенностью.",
      forSeller: false,
    },
    {
      icon: Users,
-     title: "Community of Flower Lovers",
-     description: "Join a community that shares your passion for beautiful blooms and smart shopping. Connect with local sellers and buyers.",
+     title: "Сообщество любителей цветов",
+     description: "Присоединяйтесь к сообществу, которое разделяет вашу страсть к красивым букетам. Находите продавцов и покупателей рядом.",
      forSeller: true,
    },
  ];
@@ -52,15 +52,15 @@
            className="mb-16 text-center"
          >
            <span className="mb-4 inline-block rounded-full bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground">
-             Why SecondBloom?
+             Почему SecondBloom?
            </span>
            <h2 className="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">
-             Better for Your Wallet,{" "}
-             <span className="text-primary">Better for the Planet</span>
+             Выгодно для кошелька,{" "}
+             <span className="text-primary">полезно для планеты</span>
            </h2>
            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-             Whether you're selling surplus bouquets or hunting for the perfect arrangement, 
-             SecondBloom makes the flower market work for everyone.
+             Продаёте лишние букеты или ищете идеальную композицию — 
+             SecondBloom делает цветочный рынок доступным для всех.
            </p>
          </motion.div>
  
@@ -87,7 +87,7 @@
                        : "bg-rose-soft text-primary"
                    }`}
                  >
-                   {feature.forSeller ? "Seller" : "Buyer"}
+                   {feature.forSeller ? "Продавец" : "Покупатель"}
                  </span>
                </div>
  

@@ -36,18 +36,18 @@
                transition={{ delay: 0.2 }}
                className="mb-4 text-sm uppercase tracking-widest text-white/70"
              >
-               Give flowers a second chance
+             Подари цветам вторую жизнь
              </motion.p>
  
              <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl xl:text-7xl">
-               Beautiful Bouquets,
+             Красивые букеты,
                <br />
-               Second Life
+             вторая жизнь
              </h1>
  
              <p className="max-w-lg text-base text-white/80 md:text-lg">
-               The sustainable marketplace for pre-loved flower bouquets. Find stunning 
-               blooms at amazing prices.
+             Маркетплейс для продажи и покупки цветочных букетов. 
+             Находите потрясающие композиции по выгодным ценам.
              </p>
            </motion.div>
  
@@ -60,15 +60,15 @@
            >
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">50%</p>
-               <p className="text-sm text-white/60">Average savings</p>
+             <p className="text-sm text-white/60">Средняя экономия</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">2K+</p>
-               <p className="text-sm text-white/60">Happy buyers</p>
+             <p className="text-sm text-white/60">Довольных покупателей</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">500+</p>
-               <p className="text-sm text-white/60">Active sellers</p>
+             <p className="text-sm text-white/60">Активных продавцов</p>
              </div>
            </motion.div>
          </div>
@@ -84,7 +84,7 @@
            }}
            className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/60 transition-colors hover:text-white"
          >
-           <span className="text-xs uppercase tracking-widest">Scroll</span>
+         <span className="text-xs uppercase tracking-widest">Листать</span>
            <ChevronDown className="h-5 w-5" />
          </motion.button>
        </div>
