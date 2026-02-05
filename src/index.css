@@ -112,13 +112,13 @@
   }
 
   body {
-     @apply bg-background text-foreground antialiased;
-     font-family: 'Nunito', system-ui, sans-serif;
+     @apply bg-background text-foreground antialiased font-medium;
+     font-family: 'Nunito', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-     font-family: 'Nunito', system-ui, sans-serif;
-     @apply font-bold;
+     font-family: 'Nunito', sans-serif;
+     @apply font-bold tracking-tight;
   }
 }
 

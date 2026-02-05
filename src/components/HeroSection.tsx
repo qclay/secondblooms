@@ -48,13 +48,13 @@
                {t.hero.tagline}
              </motion.p>
  
-             <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl xl:text-7xl">
+             <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl xl:text-7xl">
                {t.hero.title1}
                <br />
                {t.hero.title2}
              </h1>
  
-             <p className="max-w-lg text-base text-white/80 md:text-lg">
+             <p className="max-w-lg text-base font-medium text-white/80 md:text-lg">
                {t.hero.description}
              </p>
            </motion.div>
@@ -68,15 +68,15 @@
            >
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">50%</p>
-               <p className="text-sm text-white/60">{t.hero.stats.savings}</p>
+             <p className="text-sm font-medium text-white/60">{t.hero.stats.savings}</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">2K+</p>
-               <p className="text-sm text-white/60">{t.hero.stats.buyers}</p>
+             <p className="text-sm font-medium text-white/60">{t.hero.stats.buyers}</p>
              </div>
              <div>
                <p className="text-2xl font-bold text-white md:text-3xl">500+</p>
-               <p className="text-sm text-white/60">{t.hero.stats.sellers}</p>
+             <p className="text-sm font-medium text-white/60">{t.hero.stats.sellers}</p>
              </div>
            </motion.div>
          </div>
