@@ -3,7 +3,7 @@
  import { useLanguage } from "@/contexts/LanguageContext";
  
  const featureIcons = [DollarSign, ShoppingBag, Leaf, Timer, Shield, Users];
- const featureTypes = [true, false, true, false, false, true]; // forSeller flags
+ const featureTypes = [true, false, true, false, false, true];
  
  const FeaturesSection = () => {
    const { t } = useLanguage();
@@ -25,7 +25,7 @@
              {t.features.title1}{" "}
              <span className="text-primary">{t.features.title2}</span>
            </h2>
-           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+           <p className="mx-auto max-w-2xl text-lg font-medium text-muted-foreground">
              {t.features.description}
            </p>
          </motion.div>
@@ -48,7 +48,7 @@
                  </div>
  
                  <div className="mb-3 flex items-center gap-2">
-                   <h3 className="text-xl font-semibold">{feature.title}</h3>
+                   <h3 className="text-xl font-bold">{feature.title}</h3>
                    <span
                      className={`rounded-full px-2 py-0.5 text-xs font-medium ${
                        forSeller
@@ -60,7 +60,7 @@
                    </span>
                  </div>
  
-                 <p className="text-muted-foreground">{feature.description}</p>
+                 <p className="font-medium text-muted-foreground">{feature.description}</p>
                </motion.div>
              );
            })}
