@@ -8,11 +8,11 @@
  
  export const translations = {
    en: {
-     hero: {
-       tagline: "Give flowers a second chance",
-       title1: "Beautiful Bouquets,",
-       title2: "Second Life",
-       description: "The marketplace for buying and selling flower bouquets. Find stunning arrangements at great prices.",
+    hero: {
+      tagline: "Give flowers a second chance",
+      title1: "The App for Buying",
+      title2: "& Selling Bouquets",
+      description: "The mobile marketplace for flower bouquets. Find stunning arrangements at great prices.",
        stats: {
          savings: "Average savings",
          buyers: "Happy buyers",
@@ -72,11 +72,11 @@
      },
    },
    ru: {
-     hero: {
-       tagline: "Подари цветам вторую жизнь",
-       title1: "Красивые букеты,",
-       title2: "вторая жизнь",
-       description: "Маркетплейс для продажи и покупки цветочных букетов. Находите потрясающие композиции по выгодным ценам.",
+    hero: {
+      tagline: "Подари цветам вторую жизнь",
+      title1: "Приложение для покупки",
+      title2: "и продажи букетов",
+      description: "Мобильный маркетплейс цветочных букетов. Находите потрясающие композиции по выгодным ценам.",
        stats: {
          savings: "Средняя экономия",
          buyers: "Довольных покупателей",
@@ -136,11 +136,11 @@
      },
    },
    uz: {
-     hero: {
-       tagline: "Gullarga ikkinchi imkoniyat bering",
-       title1: "Gozal buketlar,",
-       title2: "ikkinchi hayot",
-       description: "Gul buketlarini sotish va sotib olish uchun marketplace. Ajoyib kompozitsiyalarni qulay narxlarda toping.",
+    hero: {
+      tagline: "Gullarga ikkinchi imkoniyat bering",
+      title1: "Buketlarni sotib olish",
+      title2: "va sotish ilovasi",
+      description: "Gul buketlari uchun mobil marketplace. Ajoyib kompozitsiyalarni qulay narxlarda toping.",
        stats: {
          savings: "Ortacha tejash",
          buyers: "Mamnun xaridorlar",
