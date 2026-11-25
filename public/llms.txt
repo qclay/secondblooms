@@ -1,0 +1,32 @@
+# SecondBloom
+
+> SecondBloom (https://secondbloom.uz) is a mobile marketplace in Uzbekistan for buying and selling flower bouquets. People sell bouquets left over after weddings, events or impulse purchases, and buyers get fresh arrangements well below flower-shop prices — often through short, time-limited auctions. The idea: give flowers a second life and cut floral waste.
+
+The service is available in Uzbek, Russian and English. The website is a landing page for the SecondBloom mobile app; buying, selling and bidding happen inside the app.
+
+## How it works
+
+- **Sellers** list a bouquet they no longer need (from a wedding, an event, a gift) and earn money instead of throwing the flowers away.
+- **Buyers** place bids in time-limited auctions; the highest bid when the auction ends wins. A "Buy now" option ends the auction immediately.
+- **Auctions are short** because fresh flowers have to sell fast.
+- **Payments are protected** (processed through secure payment systems) and sellers are verified. Disputes between buyer and seller are resolved with the help of support.
+- **SecondBloom is an intermediary:** it provides the marketplace and is not a party to the deal between seller and buyer.
+- **Sustainability:** every resold bouquet is one less bouquet in a landfill.
+
+## Pages
+
+- [Home](https://secondbloom.uz/): what SecondBloom is, benefits for sellers and buyers.
+- [Privacy Policy](https://secondbloom.uz/privacy): how user data is collected, used and protected.
+- [Terms of Service](https://secondbloom.uz/terms): rules for using the platform, sellers' and buyers' obligations.
+
+## Contacts
+
+- Email: info@secondbloom.uz
+- Telegram: https://t.me/second_bloom
+- Support (Telegram): https://t.me/secondbloomsupport
+- Instagram: https://www.instagram.com/secondbloom_uz/
+
+## Short description in other languages
+
+- RU: SecondBloom — мобильный маркетплейс в Узбекистане для покупки и продажи цветочных букетов. Продавайте букеты, оставшиеся после свадеб и мероприятий, или покупайте свежие композиции дешевле, чем в цветочном магазине, в том числе через быстрые аукционы.
+- UZ: SecondBloom — O'zbekistonda gul buketlarini sotish va sotib olish uchun mobil marketplace. To'y va tadbirlardan qolgan buketlarni soting yoki yangi kompozitsiyalarni gul do'konlaridan arzonroq narxda, jumladan tez auktsionlar orqali sotib oling.
