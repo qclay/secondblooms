@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "C8A8J43W55.dev.secondbloom.qclay.secondBloom",
+        "paths": [
+          "/payment-redirect",
+          "/payment-redirect/*",
+          "/flower-details-view/*"
+        ]
+      }
+    ]
+  }
+}
